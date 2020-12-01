@@ -1,37 +1,25 @@
 {
   "users": [
     {
-      "name": "Huy Le",
-      "id": "6TxLt2qY3"
-    },
-    {
-      "name": "Thanh Le Thi",
-      "id": "Hr_Tg3tf_"
-    },
-    {
-      "name": "Thi",
-      "id": "r_Tg3tf_"
-    },
-    {
-      "name": "Gi",
-      "id": "q6JRFJs95"
-    },
-    {
-      "name": "ss",
-      "id": "DxlISb26a"
-    },
-    {
       "name": "trinh",
       "id": "7pJM6vIDu"
     },
     {
-      "name": "",
-      "id": "ca_mL6Wu9"
-    },
-    {
       "name": "Thanh Le Thi",
       "phone": "0985298099",
-      "id": "ktNM5Essn"
+      "id": "ktNM5Essn",
+      "email": "tung@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "hung",
+      "phone": "0372736009",
+      "id": "nGJX-BD76"
+    },
+    {
+      "name": "Tung Le Viet",
+      "phone": "0372736006",
+      "id": "K2zdDaGDQ"
     }
   ]
 }

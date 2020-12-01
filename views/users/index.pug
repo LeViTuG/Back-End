@@ -1,0 +1,22 @@
+extends ../layout/common
+
+block content
+    h1 Users
+        a.btn.btn-primary.ml-3(href="/users/create") Add user
+
+    .d-flex
+        form.ml-auto.d-flex(action="/users/search", method ="GET")
+            input(type="text", name="q", class="form-control")
+            button(class="btn btn-primary ml-5") Search
+
+    table.table
+        tr
+            th Name
+            th Phone
+            th Action
+        each user in users
+            tr
+                td= user.name
+                td= user.phone
+                td
+                    a.btn.btn-light(href="/users/"+ user.id) view
